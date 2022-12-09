@@ -1,0 +1,3199 @@
+#use_cache "/home/dawn/dawn/workspace/opencv-4.6.0/.cache"
+#do_unpack "v0.1.1f.zip" "c12909e0ccfa93138c820ba91ff37b3c" "https://gitcode.net/opencv/ade/-/archive/v0.1.1f/ade-v0.1.1f.zip" "/home/dawn/dawn/workspace/opencv-4.6.0/build/3rdparty/ade"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/ade/c12909e0ccfa93138c820ba91ff37b3c-v0.1.1f.zip" "https://gitcode.net/opencv/ade/-/archive/v0.1.1f/ade-v0.1.1f.zip"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /opencv/ade/-/archive/v0.1.1f/ade-v0.1.1f.zip HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:25 GMT
+# Content-Type: application/zip
+# Content-Length: 166858
+# Connection: keep-alive
+# Accept-Ranges: bytes
+# Cache-Control: max-age=60, public
+# Content-Disposition: attachment; filename="ade-v0.1.1f.zip"
+# Content-Transfer-Encoding: binary
+# Etag: W/"5563ca900cde69e3b7d64d727adfbb07"
+# Referrer-Policy: strict-origin-when-cross-origin
+# Strict-Transport-Security: max-age=31536000; includeSubDomains
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY33B09E5NJVKJE2W2Y9GD
+# X-Runtime: 0.028664
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIyMTAwNjc1NDkyIl0; Expires=Fri, 09-Dec-22 18:14:25 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [2161 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2633 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [7300 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [3488 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [4380 bytes data]
+# [5 bytes data]
+# [7300 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [5840 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [5840 bytes data]
+# [5 bytes data]
+# [10544 bytes data]
+# [5 bytes data]
+# [7868 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [3412 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/ade/c12909e0ccfa93138c820ba91ff37b3c-v0.1.1f.zip"
+#mkdir "/home/dawn/dawn/workspace/opencv-4.6.0/build/3rdparty/ade"
+#unpack "/home/dawn/dawn/workspace/opencv-4.6.0/build/3rdparty/ade" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/ade/c12909e0ccfa93138c820ba91ff37b3c-v0.1.1f.zip"
+#do_copy "detect.caffemodel" "238e2b2d6f3c18d6c3a30de0c31e23cf" "https://gitcode.net/mirrors/WeChatCV/opencv_3rdparty/-/raw/a8b69ccc738421293254aec5ddb38bd523503252/detect.caffemodel" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/wechat_qrcode"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/wechat_qrcode/detect.caffemodel"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/wechat_qrcode/238e2b2d6f3c18d6c3a30de0c31e23cf-detect.caffemodel" "https://gitcode.net/mirrors/WeChatCV/opencv_3rdparty/-/raw/a8b69ccc738421293254aec5ddb38bd523503252/detect.caffemodel"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /mirrors/WeChatCV/opencv_3rdparty/-/raw/a8b69ccc738421293254aec5ddb38bd523503252/detect.caffemodel HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:27 GMT
+# Content-Type: application/octet-stream
+# Content-Length: 965430
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: attachment
+# Etag: W/"8aa379dab083358518db4091e8c280e3"
+# Referrer-Policy: strict-origin-when-cross-origin
+# Strict-Transport-Security: max-age=31536000; includeSubDomains
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY3596NJ6XQT4KFD30DCYE
+# X-Runtime: 0.034386
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIyMTAwNjc1NDkyIl0; Expires=Fri, 09-Dec-22 18:14:27 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [2237 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2633 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [1136 bytes data]
+# [5 bytes data]
+# [4380 bytes data]
+# [5 bytes data]
+# [5840 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2272 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [4380 bytes data]
+# [5 bytes data]
+# [7300 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [14924 bytes data]
+# [5 bytes data]
+# [7300 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [7852 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/wechat_qrcode/238e2b2d6f3c18d6c3a30de0c31e23cf-detect.caffemodel"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/wechat_qrcode/detect.caffemodel" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/wechat_qrcode/238e2b2d6f3c18d6c3a30de0c31e23cf-detect.caffemodel"
+#do_copy "detect.prototxt" "6fb4976b32695f9f5c6305c19f12537d" "https://gitcode.net/mirrors/WeChatCV/opencv_3rdparty/-/raw/a8b69ccc738421293254aec5ddb38bd523503252/detect.prototxt" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/wechat_qrcode"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/wechat_qrcode/detect.prototxt"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/wechat_qrcode/6fb4976b32695f9f5c6305c19f12537d-detect.prototxt" "https://gitcode.net/mirrors/WeChatCV/opencv_3rdparty/-/raw/a8b69ccc738421293254aec5ddb38bd523503252/detect.prototxt"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /mirrors/WeChatCV/opencv_3rdparty/-/raw/a8b69ccc738421293254aec5ddb38bd523503252/detect.prototxt HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:29 GMT
+# Content-Type: text/plain; charset=utf-8
+# Content-Length: 42656
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: inline
+# Etag: W/"bd94697f929e1ee73353093ea785bbf5"
+# Referrer-Policy: strict-origin-when-cross-origin
+# Strict-Transport-Security: max-age=31536000; includeSubDomains
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY37AC2D14148TM7Q3AG7F
+# X-Runtime: 0.025718
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIyMTAwNjc1NDkyIl0; Expires=Fri, 09-Dec-22 18:14:29 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [3414 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [5516 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [3310 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/wechat_qrcode/6fb4976b32695f9f5c6305c19f12537d-detect.prototxt"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/wechat_qrcode/detect.prototxt" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/wechat_qrcode/6fb4976b32695f9f5c6305c19f12537d-detect.prototxt"
+#do_copy "sr.caffemodel" "cbfcd60361a73beb8c583eea7e8e6664" "https://gitcode.net/mirrors/WeChatCV/opencv_3rdparty/-/raw/a8b69ccc738421293254aec5ddb38bd523503252/sr.caffemodel" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/wechat_qrcode"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/wechat_qrcode/sr.caffemodel"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/wechat_qrcode/cbfcd60361a73beb8c583eea7e8e6664-sr.caffemodel" "https://gitcode.net/mirrors/WeChatCV/opencv_3rdparty/-/raw/a8b69ccc738421293254aec5ddb38bd523503252/sr.caffemodel"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /mirrors/WeChatCV/opencv_3rdparty/-/raw/a8b69ccc738421293254aec5ddb38bd523503252/sr.caffemodel HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:29 GMT
+# Content-Type: application/octet-stream
+# Content-Length: 23929
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: attachment
+# Etag: W/"5526e0eea9d4f95d6996ab37e6170482"
+# Referrer-Policy: strict-origin-when-cross-origin
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY37QFFWP23XEMHJ3KVH64
+# X-Runtime: 0.027858
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIyODkyNDU1OTMwIl0; Expires=Fri, 09-Dec-22 18:14:29 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [2302 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [1173 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [6422 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/wechat_qrcode/cbfcd60361a73beb8c583eea7e8e6664-sr.caffemodel"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/wechat_qrcode/sr.caffemodel" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/wechat_qrcode/cbfcd60361a73beb8c583eea7e8e6664-sr.caffemodel"
+#do_copy "sr.prototxt" "69db99927a70df953b471daaba03fbef" "https://gitcode.net/mirrors/WeChatCV/opencv_3rdparty/-/raw/a8b69ccc738421293254aec5ddb38bd523503252/sr.prototxt" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/wechat_qrcode"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/wechat_qrcode/sr.prototxt"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/wechat_qrcode/69db99927a70df953b471daaba03fbef-sr.prototxt" "https://gitcode.net/mirrors/WeChatCV/opencv_3rdparty/-/raw/a8b69ccc738421293254aec5ddb38bd523503252/sr.prototxt"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /mirrors/WeChatCV/opencv_3rdparty/-/raw/a8b69ccc738421293254aec5ddb38bd523503252/sr.prototxt HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:29 GMT
+# Content-Type: text/plain; charset=utf-8
+# Content-Length: 5984
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: inline
+# Etag: W/"448675178679ca15dd379289516445f7"
+# Referrer-Policy: strict-origin-when-cross-origin
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY381PNJKTA13M4146WMJ0
+# X-Runtime: 0.030660
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIyODkyNDU1OTMwIl0; Expires=Fri, 09-Dec-22 18:14:29 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [2306 bytes data]
+# [5 bytes data]
+# [1173 bytes data]
+# [5 bytes data]
+# [2505 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/wechat_qrcode/69db99927a70df953b471daaba03fbef-sr.prototxt"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/wechat_qrcode/sr.prototxt" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/wechat_qrcode/69db99927a70df953b471daaba03fbef-sr.prototxt"
+#do_copy "boostdesc_bgm.i" "0ea90e7a8f3f7876d450e4149c97c74f" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_bgm.i"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:30 GMT
+# Content-Type: text/plain; charset=utf-8
+# Content-Length: 14852
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: inline
+# Etag: W/"9a5fd1e8c8c9189dd42cdf3c882bc5c9"
+# Referrer-Policy: strict-origin-when-cross-origin
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY38AFE2A0DHFHK2M7JNFY
+# X-Runtime: 0.028262
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIyODkyNDU1OTMwIl0; Expires=Fri, 09-Dec-22 18:14:30 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [2305 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [1173 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [1722 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_bgm.i" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i"
+#do_copy "boostdesc_bgm_bi.i" "232c966b13651bd0e46a1497b0852191" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_bgm_bi.i"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:30 GMT
+# Content-Type: text/plain; charset=utf-8
+# Content-Length: 14864
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: inline
+# Etag: W/"89c4b836bc5e76b58f88dfc96e0a3b2a"
+# Referrer-Policy: strict-origin-when-cross-origin
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY38MV037SQSRJTMSATSF6
+# X-Runtime: 0.040644
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIzOTQ4Njc2MzE1Il0; Expires=Fri, 09-Dec-22 18:14:30 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [845 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2633 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [274 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_bgm_bi.i" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i"
+#do_copy "boostdesc_bgm_hd.i" "324426a24fa56ad9c5b8e3e0b3e5303e" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_bgm_hd.i"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:30 GMT
+# Content-Type: text/plain; charset=utf-8
+# Content-Length: 7832
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: inline
+# Etag: W/"dfc7baf8d36f29fe7b214c10c6c15e36"
+# Referrer-Policy: strict-origin-when-cross-origin
+# Strict-Transport-Security: max-age=31536000; includeSubDomains
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY38Z0ZCC6EGY2QAXN4792
+# X-Runtime: 0.028139
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIyMTAwNjc1NDkyIl0; Expires=Fri, 09-Dec-22 18:14:30 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [7514 bytes data]
+# [5 bytes data]
+# [318 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_bgm_hd.i" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i"
+#do_copy "boostdesc_binboost_064.i" "202e1b3e9fec871b04da31f7f016679f" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_binboost_064.i"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:31 GMT
+# Content-Type: text/plain; charset=utf-8
+# Content-Length: 138093
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: inline
+# Etag: W/"9483572358ea8a9e0d8eea90149fdfd6"
+# Referrer-Policy: strict-origin-when-cross-origin
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY3976H1Y3YM0K9Y6FZG1Q
+# X-Runtime: 0.034286
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIzOTQ4Njc2MzE1Il0; Expires=Fri, 09-Dec-22 18:14:31 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [3477 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [4380 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [7868 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [4948 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [6976 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2028 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2028 bytes data]
+# [5 bytes data]
+# [14356 bytes data]
+# [5 bytes data]
+# [7868 bytes data]
+# [5 bytes data]
+# [6380 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_binboost_064.i" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i"
+#do_copy "boostdesc_binboost_128.i" "98ea99d399965c03d555cef3ea502a0b" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_binboost_128.i"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:31 GMT
+# Content-Type: text/plain; charset=utf-8
+# Content-Length: 275322
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: inline
+# Etag: W/"d84de767454582a150b2e28def4f82f6"
+# Referrer-Policy: strict-origin-when-cross-origin
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY39S1QR5A2MZGD02Z5ENF
+# X-Runtime: 0.039991
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIzOTQ4Njc2MzE1Il0; Expires=Fri, 09-Dec-22 18:14:31 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [844 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [4093 bytes data]
+# [5 bytes data]
+# [4380 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [6408 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8112 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [3697 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_binboost_128.i" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i"
+#do_copy "boostdesc_binboost_256.i" "e6dcfa9f647779eb1ce446a8d759b6ea" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_binboost_256.i"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:32 GMT
+# Content-Type: text/plain; charset=utf-8
+# Content-Length: 549754
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: inline
+# Etag: W/"7f50a4351110069aa4cf31cb8124a887"
+# Referrer-Policy: strict-origin-when-cross-origin
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY3ASSJQQ2W3JV1S8M34BT
+# X-Runtime: 0.043626
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIzOTQ4Njc2MzE1Il0; Expires=Fri, 09-Dec-22 18:14:32 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [2304 bytes data]
+# [5 bytes data]
+# [6729 bytes data]
+# [5 bytes data]
+# [4096 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [1704 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [3488 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [4624 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [7300 bytes data]
+# [5 bytes data]
+# [4380 bytes data]
+# [5 bytes data]
+# [4380 bytes data]
+# [5 bytes data]
+# [12004 bytes data]
+# [5 bytes data]
+# [7868 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [7628 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [4380 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2840 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [4868 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [7788 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [3976 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [5105 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_binboost_256.i" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i"
+#do_copy "boostdesc_lbgm.i" "0ae0675534aa318d9668f2a179c2a052" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_lbgm.i"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /opencv/opencv_3rdparty/-/raw/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:34 GMT
+# Content-Type: text/plain; charset=utf-8
+# Content-Length: 426280
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: inline
+# Etag: W/"d6e503826273191cb875bde874e9230c"
+# Referrer-Policy: strict-origin-when-cross-origin
+# Strict-Transport-Security: max-age=31536000; includeSubDomains
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY3C5STWBH5A7N70PMME2F
+# X-Runtime: 0.038518
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIyMTAwNjc1NDkyIl0; Expires=Fri, 09-Dec-22 18:14:34 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [2240 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2633 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [4380 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [4948 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [4624 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [6976 bytes data]
+# [5 bytes data]
+# [9408 bytes data]
+# [5 bytes data]
+# [4624 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [7911 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/boostdesc_lbgm.i" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i"
+#do_copy "vgg_generated_48.i" "e8d0dcd54d1bcfdc29203d011a797179" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/vgg_generated_48.i"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /opencv/opencv_3rdparty/-/raw/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:34 GMT
+# Content-Type: text/plain; charset=utf-8
+# Content-Length: 773330
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: inline
+# Etag: W/"915c4e380dccc824c5e515dae3b6f043"
+# Referrer-Policy: strict-origin-when-cross-origin
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY3CNJX2ER17KNS0VADR5Z
+# X-Runtime: 0.055342
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIyODkyNDU1OTMwIl0; Expires=Fri, 09-Dec-22 18:14:34 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [844 bytes data]
+# [5 bytes data]
+# [4093 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [4056 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [5840 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [7868 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [6408 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [4380 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [6656 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [933 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/vgg_generated_48.i" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i"
+#do_copy "vgg_generated_64.i" "7126a5d9a8884ebca5aea5d63d677225" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/vgg_generated_64.i"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /opencv/opencv_3rdparty/-/raw/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:36 GMT
+# Content-Type: text/plain; charset=utf-8
+# Content-Length: 915012
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: inline
+# Etag: W/"0106dbf9be1d4100b73d63932d5fcb7c"
+# Referrer-Policy: strict-origin-when-cross-origin
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY3EEK949VQ7N7AV924SH2
+# X-Runtime: 0.051577
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIzOTQ4Njc2MzE1Il0; Expires=Fri, 09-Dec-22 18:14:36 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [844 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [4093 bytes data]
+# [5 bytes data]
+# [4380 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [4056 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [5840 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [6084 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2028 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [13464 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [5600 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2516 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [5436 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [3976 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [5436 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [6896 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [7544 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [1704 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [7544 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [6976 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [6084 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [6976 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [6084 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [4624 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [3823 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/vgg_generated_64.i" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i"
+#do_copy "vgg_generated_80.i" "7cd47228edec52b6d82f46511af325c5" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/vgg_generated_80.i"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /opencv/opencv_3rdparty/-/raw/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:38 GMT
+# Content-Type: text/plain; charset=utf-8
+# Content-Length: 1012932
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: inline
+# Etag: W/"56114e8b1c40462cb36afc4a6eb4e8ab"
+# Referrer-Policy: strict-origin-when-cross-origin
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY3G7HW8211Y9P79FKGX0T
+# X-Runtime: 0.054525
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIyODkyNDU1OTMwIl0; Expires=Fri, 09-Dec-22 18:14:38 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [2303 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2633 bytes data]
+# [5 bytes data]
+# [4380 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2596 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [3488 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [2592 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [7300 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [3464 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/vgg_generated_80.i" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i"
+#do_copy "vgg_generated_120.i" "151805e03568c9f490a5e3a872777b75" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i" "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/vgg_generated_120.i"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i"
+#try 1
+#   Trying 119.3.229.170...
+# TCP_NODELAY set
+# Connected to gitcode.net (119.3.229.170) port 443 (#0)
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: /etc/ssl/certs/ca-certificates.crt
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [108 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Certificate (11):
+# [2792 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+# [300 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Server finished (14):
+# [4 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+# [37 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+# [1 bytes data]
+# [5 bytes data]
+# TLSv1.2 (OUT), TLS handshake, Finished (20):
+# [16 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# TLSv1.2 (IN), TLS handshake, Finished (20):
+# [16 bytes data]
+# SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: CN=*.gitcode.net
+#  start date: Oct  8 00:00:00 2022 GMT
+#  expire date: Oct 26 23:59:59 2023 GMT
+#  subjectAltName: host "gitcode.net" matched cert's "gitcode.net"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+#  SSL certificate verify ok.
+# [5 bytes data]
+# GET /opencv/opencv_3rdparty/-/raw/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i HTTP/1.1
+# Host: gitcode.net
+# User-Agent: curl/7.58.0
+# Accept: */*
+# 
+# [5 bytes data]
+# HTTP/1.1 200 OK
+# Date: Fri, 09 Dec 2022 17:14:40 GMT
+# Content-Type: text/plain; charset=utf-8
+# Content-Length: 1257733
+# Connection: keep-alive
+# Cache-Control: max-age=60, public
+# Content-Disposition: inline
+# Etag: W/"8feb4556c32ad643f0677dbdf57538d5"
+# Referrer-Policy: strict-origin-when-cross-origin
+# Strict-Transport-Security: max-age=31536000; includeSubDomains
+# X-Content-Type-Options: nosniff
+# X-Download-Options: noopen
+# X-Frame-Options: DENY
+# X-Gitlab-Feature-Category: source_code_management
+# X-Permitted-Cross-Domain-Policies: none
+# X-Request-Id: 01GKVY3JA2DGJFG4KTS9B4RC1V
+# X-Runtime: 0.058406
+# X-Ua-Compatible: IE=edge
+# X-Xss-Protection: 1; mode=block
+# Server: elb
+# Set-Cookie: e7ea3a81c16a49a2901ba30047af6c48=WyIyMTAwNjc1NDkyIl0; Expires=Fri, 09-Dec-22 18:14:40 GMT; Domain=gitcode.net; Path=/; Secure; HttpOnly
+# 
+# [3412 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [4380 bytes data]
+# [5 bytes data]
+# [5840 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [4948 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [1380 bytes data]
+# [5 bytes data]
+# [1460 bytes data]
+# [5 bytes data]
+# [2920 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [8192 bytes data]
+# [5 bytes data]
+# [6377 bytes data]
+# Connection #0 to host gitcode.net left intact
+# 
+
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/downloads/xfeatures2d/vgg_generated_120.i" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i"
+#do_copy "face_landmark_model.dat" "7505c44ca4eb54b4ab1e4777cb96ac05" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/8afa57abc8229d611c4937165d20e2a2d9fc5a12/face_landmark_model.dat" "/home/dawn/dawn/workspace/opencv-4.6.0/build/share/opencv4/testdata/cv/face/"
+#missing "/home/dawn/dawn/workspace/opencv-4.6.0/build/share/opencv4/testdata/cv/face//face_landmark_model.dat"
+#cmake_download "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/data/7505c44ca4eb54b4ab1e4777cb96ac05-face_landmark_model.dat" "https://gitcode.net/opencv/opencv_3rdparty/-/raw/8afa57abc8229d611c4937165d20e2a2d9fc5a12/face_landmark_model.dat"
+#try 1
+#check_md5 "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/data/7505c44ca4eb54b4ab1e4777cb96ac05-face_landmark_model.dat"
+#copy "/home/dawn/dawn/workspace/opencv-4.6.0/build/share/opencv4/testdata/cv/face//face_landmark_model.dat" "/home/dawn/dawn/workspace/opencv-4.6.0/.cache/data/7505c44ca4eb54b4ab1e4777cb96ac05-face_landmark_model.dat"
