@@ -47,6 +47,7 @@ cmake -D OPENCV_DOWNLOAD_MIRROR_ID=gitcode \
       -D BUILD_PERF_TESTS=OFF \
       -D WITH_IPP=OFF \
       -D WITH_GTK=ON \
+      -D WITH_GTK=ON \
       -D WITH_GTK_2_X=ON \
       -D WITH_FFMPEG=ON \
       -D WITH_GSTREAMER=ON \
@@ -58,4 +59,9 @@ cmake -D OPENCV_DOWNLOAD_MIRROR_ID=gitcode \
 # TODO: ADD X86 support
 
 make -j8 | make install
+cd -
+
+TIME=`date +"%y%m%d%H%M%S"`
+tar cvf opencv-4.6.0-Ubuntu18.04-${TIME}-release.tgz	release
+
 #cp -frd ${FFMPEG_PATH}/release/* ${TARGET_PATH}
